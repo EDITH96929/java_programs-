@@ -11,8 +11,8 @@ public class example {
         arr[3] = 65;
         arr[4] = 15;
 
-        for(int i = 0;i<= 5;i++){
-           System.out.println("the value of array at index "+ i + "  :" +arr[i]);
+        for(int i = 0;i<= arr.length;i++){
+           System.out.println("the value of array at index "+ i + "  :  " +arr[i]);
         }
     }
 }
